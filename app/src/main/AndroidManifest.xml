@@ -9,15 +9,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.KotlinApp">
-        <activity android:name=".Lab2Activity"></activity>
-        <activity android:name=".AutoComplete">
+        <activity android:name=".DatePickerActivity"></activity>
+        <activity android:name=".AlertActivityClasswork" />
+        <activity android:name=".AlertActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".SpinnerActivity"></activity>
+        <activity android:name=".AutoComplete" />
+        <activity android:name=".SpinnerActivity" />
         <activity android:name=".UserProfileActivity" />
         <activity android:name=".GridLayoutActivity" />
         <activity android:name=".ImageActivity" />
