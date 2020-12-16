@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DatePickerClasswork">
+
+    <EditText
+        android:id="@+id/et1"
+        android:layout_width="match_parent"
+        android:hint="Date of Joining"
+        android:layout_height="wrap_content"
+        android:gravity="center"/>
+
+    <EditText
+        android:id="@+id/et2"
+        android:layout_width="match_parent"
+        android:hint="DOB"
+        android:gravity="center"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:text="OUTPUT"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:hint="Enter DOB"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="match_parent"
+        android:hint="No. of years worked"
+        android:textSize="20dp"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/tv2"
+        android:hint="Your age is"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

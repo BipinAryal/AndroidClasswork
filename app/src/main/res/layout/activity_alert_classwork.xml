@@ -10,10 +10,12 @@
     <EditText
         android:id="@+id/et1"
         android:layout_width="match_parent"
+        android:text="0"
         android:layout_height="wrap_content"/>
     <EditText
         android:id="@+id/et2"
         android:layout_width="match_parent"
+        android:text="0"
         android:layout_height="wrap_content"/>
     <Button
         android:id="@+id/btn1"
